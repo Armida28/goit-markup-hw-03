@@ -1,3 +1,23 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+padding: 0;}
+ul {
+  margin: 0; padding: 0;
+
+}
+
+
+
+
+
+
+
 body {
   font-family: Roboto, sans-serif;
   background-color: #ffffff;
@@ -24,17 +44,13 @@ display:block; max-width:100%; height:auto; }
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0;
+  
 }
-
-
 
 
 .nav-header {
   display: flex;
-  width: 1600px;
-  padding: 0;
-
+  
 }
 
 .header-list {
@@ -49,8 +65,6 @@ display:block; max-width:100%; height:auto; }
 }
 
 .header-list {
-  width: 1600px;
-  height: 80px;
   background-color: #fff;
   padding: 0;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
@@ -58,7 +72,7 @@ display:block; max-width:100%; height:auto; }
 
 
 }
-.header-contacts-list link {
+.header-contacts-list .link {
   font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -103,6 +117,9 @@ line-height: 16px;
 letter-spacing: 0.02em;
 }
 
+.header-contacts-list .link  {
+  padding-bottom: 38px;
+}
 
 
 .header-contacts-list .link {
@@ -113,9 +130,6 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-padding-top: 32px;
-
-
 }
 .header-contacts-list .link:hover {
   color: #2196f3;
@@ -126,7 +140,6 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-padding-top: 32px;
 }
 
 .webstudio-link {
@@ -175,8 +188,7 @@ padding-top: 32px;
 .header-contacts-list   {
   display: flex;
   align-items: center;
-  padding-left: 315px;
-
+  margin-left: auto;
   
 }
 .header-contacts-list  .item + .item {
@@ -193,11 +205,11 @@ padding-top: 32px;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  max-width: 100%;
-  width: 1600px;
+  
+  
   padding-bottom: 200px;
   padding-top: 200px;
-  max-width: 100%;
+  
 
 }
 
@@ -239,13 +251,8 @@ padding: 10px 32px ;
 /*---benefits---*/
 
 .benefits-list {
-  width: 1200px;
+ 
   display: flex;
-  margin-bottom: 94px;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-top: 94px;
-  padding: 0;
 }
 
 .benefits-list .benefits-item + .benefits-item {
@@ -271,12 +278,7 @@ padding: 10px 32px ;
 
 /*-----чем мы занимаемся-----*/
 
-.about {
-  width: 1200px;
-  padding-bottom: 94px;
-  
-  margin-left: 215px;
-}
+
 .about-text {
   font-weight: 700;
   font-size: 36px;
@@ -284,14 +286,12 @@ padding: 10px 32px ;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .about-list {
   display: flex;
-  width: 1200px;
-  padding: 0 15px;
-
+  
 }
 .about-list .about-work + .about-work {
   margin-left: 30px;
@@ -301,17 +301,14 @@ padding: 10px 32px ;
 
 .team {
   background-color: #f5f4fa;
-  width: 1600px;
+  
   
   
 }
 
 .team-list {
   display: flex;
-  padding: 0;
-  justify-content: center;
-  margin: 0;
-  padding-bottom: 94px;
+ 
 
 }
 .team-list .list {
@@ -329,11 +326,13 @@ padding: 10px 32px ;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 90px;
-  padding-bottom: 50px;
-  margin: 0;
+  margin-bottom: 94px;
 }
 
+.team-photo list {
+  margin-left: 0;
+  background-color: ffff;
+}
 
 .team-name {
   font-weight: 500;
@@ -351,45 +350,41 @@ padding: 10px 32px ;
   color: #757575;
 }
 
+.team-about {
+  padding-top: 30px ;
+  padding-bottom: 30px;
+}
 /*--portfolio--*/
 .portfolio-button {
   
 }
 
-.portfolio-button {
-  display: flex;
-  justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
-  margin-left: 8px; 
-  
-}
+
 
 .portfolio-button {
   display: flex;
   justify-content: center;
   padding: 0;
+  margin-bottom: 50px;
+  
   width: 1200px;
 }
 .portfolio-button-list {
-  margin-right: 8px;
+  margin-right: 0;
 margin-left: 0;
 text-align: center;
 
 }
 
-
-
-button {
+.btn {
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
 background-color: #F5F4FA;
 padding: 6px 22px;
-
 }
 
-button:hover {
+.btn:hover {
   background-color: rgba(33, 150, 243, 1);
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -398,12 +393,7 @@ button:hover {
 
 
 .portfolio {
-  width: 1200px;
-  
-  padding-bottom: 94px ;
-  
-  padding-left: 215px ;
- 
+  padding: 94px 0;
 }
 
 .img {
@@ -417,15 +407,11 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  width: 1200px;
-  padding-left: 0px;
-  border-left: 0px;
-  margin: 0px;
   
 }
 
 .portfolio-projects-img {
-  border: 1px solid rgba(238, 238, 238, 1);
+ 
 }
 
 .portfolio-project-name {
@@ -440,7 +426,7 @@ button:hover {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding-left: 24px;
+  margin-bottom: 4px;
   
 }
 
@@ -449,40 +435,29 @@ button:hover {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-left: 24px;
+margin-bottom: 20px;
 
 }
 
-.container-portfolio {
-  padding-top: 30px ;
-  padding-bottom: 30px;
- 
-}
 
 /*--footer--*/
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px ;
-
-
-  
-}
-.footer {
-  padding-left: 0;
-  padding-right: 0;
-}
 .footer {
   background-color: #2f303a;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  width: 1600px;
-  
 
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px ;
+
+ padding-left: 0;
+  padding-right: 0;
+  
 }
+
 .webstudio-link {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -490,6 +465,7 @@ button:hover {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #fff;
+  margin-bottom: 94px;
  
 }
 
@@ -497,26 +473,16 @@ button:hover {
 
 .footer-address {
   font-style: normal;
-  padding-left: 215px;
+ 
 }
 .link-address {
   color: #ffffff;
-  margin-bottom: 9px ;
+  
  
 }
 .link-mail,
 .link-phone {
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-address {
-  width: 260px;
-
-  
-}
-.webstudio-link {
-  width: 145px;
-  padding-left: 215px ;
- 
 }
 
 
@@ -532,4 +498,8 @@ button:hover {
 
 .address-list {
   padding-left: 0;
+}
+
+.address-list li {
+margin-bottom: 9px;
 }
