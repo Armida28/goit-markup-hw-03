@@ -301,7 +301,7 @@ padding: 10px 32px ;
 
 .team {
   background-color: #f5f4fa;
-  
+
   
   
 }
@@ -317,7 +317,8 @@ padding: 10px 32px ;
   border-radius: 0px 0px 4px 4px;
   margin-left: 30px;
   margin-bottom: 0;
-  background-color: #F5F4FA;;
+  background-color: #F5F4FA;
+
 }
 .team-text {
   font-weight: 700;
@@ -382,6 +383,7 @@ text-align: center;
   border-radius: 4px;
 background-color: #F5F4FA;
 padding: 6px 22px;
+margin-right: 8px;
 }
 
 .btn:hover {
