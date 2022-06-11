@@ -84,6 +84,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
+padding: 32px 0;
 }
 
 .header-nav-menu {
@@ -251,6 +252,10 @@ padding: 10px 32px ;
 
 /*---benefits---*/
 
+.benefits {
+  padding-bottom: 0px;
+}
+
 .benefits-list {
   display: flex;
 }
@@ -370,10 +375,19 @@ border-bottom-right-radius: 4px;
 .team-photo.list {
 margin-top: 30px;
 margin-left: 30px;
+padding-top: 0;
 }
 
+.team-photo.list:first-child {
+  padding-left: 0px;
+}
+
+
 /*--portfolio--*/
-.portfolio-button {
+.container-portfolio {
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
+  border-top: 0;
   
 }
 
@@ -387,10 +401,12 @@ margin-left: 30px;
  
 }
 .portfolio-button-list {
-  margin-right: 0;
+  margin-right: 8px;
 margin-left: 0;
 text-align: center;
-
+}
+.portfolio-button-list:last-child {
+  margin-right: 0px;
 }
 
 .btn {
@@ -399,7 +415,13 @@ text-align: center;
   border-radius: 4px;
 background-color: #F5F4FA;
 padding: 6px 22px;
-margin-right: 8px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: #212121;
+font-family: inherit;
+
 }
 
 .btn:hover {
@@ -428,16 +450,6 @@ margin-right: 8px;
   
 }
 
-.portfolio-projects-img {
- 
-}
-
-.portfolio-project-name {
-  margin-top: 20px;
-}
-
-
-
 .portfolio-project-name {
   font-weight: 700;
   font-size: 18px;
@@ -446,6 +458,7 @@ margin-right: 8px;
   color: #212121;
   margin-bottom: 4px;
   
+  
 }
 
 .portfolio-type {
@@ -453,7 +466,7 @@ margin-right: 8px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-margin-bottom: 20px;
+
 
 }
 
@@ -483,8 +496,7 @@ margin-bottom: 20px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #fff;
- padding-bottom: 20px;
-padding-top: 60px; 
+ margin-bottom: 20px;
 }
 
 
@@ -520,4 +532,7 @@ padding-top: 60px;
 
 .address-list li {
 margin-bottom: 9px;
+}
+.address-list li:last-child {
+margin-bottom: 0px;
 }
