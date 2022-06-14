@@ -122,20 +122,6 @@ line-height: 16px;
 letter-spacing: 0.02em;
 }
 
-.header-contacts-list .link  {
-  padding-bottom: 38px;
-}
-
-
-.header-contacts-list .link {
-  color: #757575;
-  font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-}
 .header-contacts-list .link:hover {
   color: #2196f3;
   font-family: 'Roboto', sans-serif;
@@ -373,9 +359,13 @@ border-bottom-right-radius: 4px;
 }
 
 .team-photo.list {
-margin-top: 30px;
+
 margin-left: 30px;
 padding-top: 0;
+}
+
+.team-photo.list:first-child {
+  margin-left: 0px;
 }
 
 .team-photo.list:first-child {
